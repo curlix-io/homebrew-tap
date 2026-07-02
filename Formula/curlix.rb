@@ -19,7 +19,7 @@ class Curlix < Formula
   on_macos do
     on_arm do
       url "https://github.com/curlix-io/homebrew-tap/releases/download/cli-v#{version}/curlix-#{version}-darwin-arm64.tar.gz"
-      sha256 "3fd0407236d5ee688b888028afa0b78cf68402b2940dcd709f4a07967370b40a"
+      sha256 "e28187f2dca20fa7d607682908366c952aa75dd5f105ea3896abdd98f120088d"
     end
     on_intel do
       url "https://github.com/curlix-io/homebrew-tap/releases/download/cli-v#{version}/curlix-#{version}-darwin-x86_64.tar.gz"
