@@ -19,7 +19,7 @@ class Curlix < Formula
   on_macos do
     on_arm do
       url "https://github.com/curlix-io/homebrew-tap/releases/download/cli-v#{version}/curlix-#{version}-darwin-arm64.tar.gz"
-      sha256 "92f9f6546589d1e5462a17f11f3716af25e2d82b662233c75f5e7b1bbb1843bd"
+      sha256 "e2f08ef510df04b9ce59afc86a45e99022019317e939b9aff6a0bdcee5e39678"
     end
     on_intel do
       url "https://github.com/curlix-io/homebrew-tap/releases/download/cli-v#{version}/curlix-#{version}-darwin-x86_64.tar.gz"
@@ -30,11 +30,11 @@ class Curlix < Formula
   on_linux do
     on_arm do
       url "https://github.com/curlix-io/homebrew-tap/releases/download/cli-v#{version}/curlix-#{version}-linux-arm64.tar.gz"
-      sha256 "615dc2381e38b4068d79c9a278eaa1ffb6ccc542c1dd5db21af5e529bfe6d595"
+      sha256 "92f21b44f8587f56d544373594f948ea0d84824969b153d2be8ffeabe397e035"
     end
     on_intel do
       url "https://github.com/curlix-io/homebrew-tap/releases/download/cli-v#{version}/curlix-#{version}-linux-x86_64.tar.gz"
-      sha256 "d03b37c944ea7d16eb6690d78964cd2a689e70cc45ad05491eb0cfaa54a380e8"
+      sha256 "f20146edeea4c4ae013c9b13448585315446849edf24b0fa3a59e4b199f1c7fe"
     end
   end
 
